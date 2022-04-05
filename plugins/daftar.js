@@ -5,7 +5,7 @@ let totalreg = Object.keys(global.DATABASE.data.users).length
 let handler = async function (m, { text, usedPrefix }) {
   let user = global.DATABASE.data.users[m.sender]
   if (user.registered === true) throw `Anda sudah terdaftar\nMau daftar ulang? ${usedPrefix}unreg <SN|SERIAL NUMBER>`
-  if (!Reg.test(text)) throw `Format salah\n*${usedPrefix}daftar nama|umur*\nContoh : ${usedPrefix}daftar nayla.16`
+  if (!Reg.test(text)) throw `Format salah\n*${usedPrefix}daftar nama|umur*\nContoh : ${usedPrefix}daftar Kevin.16`
   let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
   let [_, name, splitter, age] = text.match(Reg)
   if (!name) throw 'Nama tidak boleh kosong (Alphanumeric)'
@@ -40,7 +40,7 @@ let handler = async function (m, { text, usedPrefix }) {
 │ *Kalian ingin unreg*
 ╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
 
-*「 NayLaBotz 」*
+*「 Xhiver 」*
 `.trim())
 }
 handler.help = ['daftar', 'reg', 'register'].map(v => v + ' <nama>.<umur>')
