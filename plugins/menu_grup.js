@@ -244,7 +244,7 @@ let tags = {
 
     let before = conn.menu.before || `
 Hello %name
-Im *NayLaBotz* And You Use 
+Im *Xhivier* And You Use 
 
 ❏ Ｉｎｆｏ Ｂｏｔ
 ▷ Bot Name : *${conn.getName(conn.user.jid)}*
@@ -358,11 +358,11 @@ Im *NayLaBotz* And You Use
 
     externalAdReply: {
 
-                    mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
+                    mediaUrl: 'https://kevinafsarmanik.github.io/nino-wife.github.io/',
 
-                    title: 'CREATED BY ZEVANO',
+                    title: 'CREATED BY KEPIN',
 
-                    body: 'NayLa-B0TZ',
+                    body: 'Xhivier',
 
                     thumbnail: await(await fetch(global.thum)).buffer()
 
