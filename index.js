@@ -9,7 +9,7 @@ CFonts.say('NayLaBotz\nWhatsApp Bot', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`Script by ZEVANO`, {
+CFonts.say(`Script by -`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
